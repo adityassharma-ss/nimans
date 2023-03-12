@@ -1,0 +1,106 @@
+.main {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
+  
+  input[type="text"] {
+    background-color: transparent;
+    border: none;
+    color: #444444;
+    flex: 1;
+    font-size: 16px;
+    margin-right: 10px;
+    outline: none;
+  }
+  
+  .search {
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+  }
+  
+  .search:before {
+    content: "";
+    display: block;
+    height: 12px;
+    margin: 9px auto;
+    width: 12px;
+    background: url("https://cdn.iconscout.com/icon/free/png-256/search-208-1175153.png") no-repeat center;
+    background-size: contain;
+  }
+  
+  .heading-container {
+    margin: 40px 0 20px;
+  }
+  
+  .heading-recommend {
+    color: #444444;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .col-lg-4,
+  .col-md-6,
+  .col-sm-6,
+  .col-xs-12 {
+    margin-bottom: 30px;
+    padding: 0 10px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .profile-card-2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .profile-card-2 img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .profile-name,
+  .profile-username {
+    color: #444444;
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .profile-username {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
