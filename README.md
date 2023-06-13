@@ -1,4 +1,4 @@
-Nimans - Music Recommendation System
+## Nimans - Music Recommendation System
 Nimans is a music recommendation system that uses user input and facial recognition to recommend songs to users. The system is built using React, Express, MongoDB, and Python.
 
 Table of Contents
