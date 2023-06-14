@@ -88,5 +88,3 @@ Accepts a JSON object with a search_param property and returns an array of searc
 
 POST /mood
 Accepts an image file and returns an array of song recommendations based on the mood detected in the image.
-
-
